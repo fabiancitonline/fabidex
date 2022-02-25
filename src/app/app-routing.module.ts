@@ -4,10 +4,10 @@ import { PokedetailComponent } from './components/pokedetail/pokedetail.componen
 import { PoketableComponent } from './components/poketable/poketable.component';
 
 const routes: Routes = [
-  {path: 'home', component: PoketableComponent},
+  {path: 'index', component: PoketableComponent},
   {path: 'pokedetail/:id', component: PokedetailComponent},
-  {path: '', pathMatch: 'full', redirectTo: 'home'},
-  {path: '**', pathMatch: 'full', redirectTo: 'home'}
+  {path: '', pathMatch: 'full', redirectTo: 'index'},
+  {path: '**', pathMatch: 'full', redirectTo: 'index'}
 ];
 
 @NgModule({

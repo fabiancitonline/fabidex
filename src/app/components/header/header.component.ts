@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
   }
-home(){
-  this.router.navigateByUrl('home');
+index(){
+  this.router.navigateByUrl('index');
 }
 }
